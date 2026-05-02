@@ -6,6 +6,10 @@ from routes.auth_routes import router as auth_router
 from routes.complaint_routes import router as complaint_router
 from routes.vendor_routes import router as vendor_router
 
+import sys
+print(f"Python version: {sys.version}")
+print("Starting NIVAAAN API...")
+
 # -----------------------------------------------
 # 🚀 App Initialization
 # -----------------------------------------------
